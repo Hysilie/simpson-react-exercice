@@ -14,7 +14,7 @@ const Simpsons = [
       "https://i.pinimg.com/originals/54/2f/6f/542f6f41a37ec8055f7822a7c69949f5.jpg",
     firstName: "Maggie",
     lastName: "Simpson",
-    description: "Your weapon is a bibber 🍼 !",
+    description: "Your weapon is a baby bottle 🍼 !",
     family: "true",
   },
   {
