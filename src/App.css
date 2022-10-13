@@ -1,0 +1,48 @@
+
+body {
+  background-color: #eee;
+}
+
+.container{
+margin : 20vh;
+display: flex;
+justify-content: space-around;
+}
+
+
+.avatarframe {
+  opacity: 0.6;
+  margin:1vh;
+  background-color: white;
+  text-align: center;
+  width: 40vh;
+  border : 1px solid black;
+  border-radius: 5%;
+  box-shadow: 2px 2px 6px 1px;
+
+}
+
+img {
+  cursor: pointer;
+}
+.avatarframe:hover {
+  opacity:1;
+}
+
+.lastname{
+  color : #FED61E;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  color : #FED61E;
+}
+
+p {
+  text-align: center;
+  text-transform: uppercase;
+font-weight: 800;
+  font-size: 1.2em;
+
+}
