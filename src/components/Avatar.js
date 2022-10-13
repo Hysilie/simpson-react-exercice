@@ -1,10 +1,8 @@
 import React from "react";
 import isClicked from "./isClicked";
 
-function Avatar({ image, firstName, lastName }) {
-
-     
-  const isClicked = () => alert(`You choose ${firstName}!`);
+function Avatar({ image, firstName, lastName, description }) {
+  const isClicked = () => alert(`You choose ${firstName}!\n${description}`);
 
   return (
     <div className="avatarframe">

@@ -1,18 +1,13 @@
 import * as React from "react";
-import Avatar from "./components/Avatar";
-import Simpsons from "./components/Simpsons";
 import "./App.css";
+import AvatarList from "./components/AvatarList";
 
 export default function App() {
   return (
-    <div>
+    <div className="body">
       <h1>Simpson Family</h1>
       <p>Choose your champion</p>
-      <div className="container">
-        {Simpsons.map((simpson) => (
-          <Avatar {...simpson} />
-        ))}
-      </div>
+      <AvatarList />
     </div>
   );
 }

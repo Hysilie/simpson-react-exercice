@@ -1,32 +1,44 @@
 
 body {
-  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('https://cdn.shopify.com/s/files/1/0287/6738/7780/files/4.jpg?v=1619602571');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container{
-margin : 20vh;
+margin : 15vh;
 display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 
 
 .avatarframe {
-  opacity: 0.6;
-  margin:1vh;
+  opacity: 1;
+  margin:2vh;
   background-color: white;
   text-align: center;
   width: 40vh;
+  height :60vh;
   border : 1px solid black;
   border-radius: 5%;
   box-shadow: 2px 2px 6px 1px;
+  transition: transform .2s;
 
 }
 
 img {
   cursor: pointer;
-}
+  height: 40vh;
+  width :auto;}
+
+
 .avatarframe:hover {
-  opacity:1;
+  transform: scale(1.1);
 }
 
 .lastname{
@@ -43,6 +55,19 @@ p {
   text-align: center;
   text-transform: uppercase;
 font-weight: 800;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  color: #eee;
 
+}
+.champion {
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
+button {
+justify-content: center;
+text-align: center;
+width: 20vh;
+margin: auto;
 }
